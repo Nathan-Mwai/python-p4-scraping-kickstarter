@@ -7,7 +7,7 @@ import ipdb
 # description: project.select("p.bbcard_blurb")[0].text
 # location: project.select("ul.project-meta span.location-name")[0].text
 # percent_funded: project.select("ul.project-stats li.first.funded strong")[0].text.replace("%","")
-
+# Solution 
 def create_project_dict():
     html = ''
     with open('./fixtures/kickstarter.html') as file:
